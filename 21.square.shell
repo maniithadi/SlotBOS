@@ -1,0 +1,8 @@
+echo "enter a number"
+read a
+sq=$(($a*$a))
+echo $sq
+
+Output
+enter a number :5
+25
