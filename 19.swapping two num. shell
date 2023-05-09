@@ -1,0 +1,14 @@
+echo "Enter Two Numbers" 
+read a b 
+temp=$a 
+a=$b
+ b=$temp
+ echo "after swapping" 
+echo $a $b
+
+
+
+Output
+Enter Two Numbers  11,5
+after swapping
+11
